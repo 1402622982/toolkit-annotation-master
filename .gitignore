@@ -1,5 +1,10 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+.project
+*.classpath
+.settings
+_Store
+target/
+out/
+*.class
+.DS_Store
+*.iml
+.idea/*
