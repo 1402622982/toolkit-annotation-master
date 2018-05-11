@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wangpei.spring.annotation</groupId>
-    <artifactId>spring-annotation-master</artifactId>
+    <artifactId>toolkit-annotation-master</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>spring-annotation-master</name>
+    <name>toolkit-annotation-master</name>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -91,7 +91,7 @@
     </dependencies>
 
     <build>
-        <finalName>spring-annotation-master</finalName>
+        <finalName>toolkit-annotation-master</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
