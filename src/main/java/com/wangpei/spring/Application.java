@@ -1,6 +1,6 @@
 package com.wangpei.spring;
 
-import com.wangpei.spring.listener.ApplicationReadyListener;
+import com.wangpei.spring.listener.InitConfigGroupListener;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -20,7 +20,7 @@ public class Application {
 
 
         SpringApplication springApplication = new SpringApplication(Application.class);
-        springApplication.addListeners(new ApplicationReadyListener());
+        springApplication.addListeners(new InitConfigGroupListener());
         springApplication.run(args);
     }
 }

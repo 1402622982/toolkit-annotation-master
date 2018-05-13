@@ -26,9 +26,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author wangpei
  * @version 1.0
  */
-public class ApplicationReadyListener implements ApplicationListener<ApplicationReadyEvent> {
+public class InitConfigGroupListener implements ApplicationListener<ApplicationReadyEvent> {
 
-    Logger logger = LoggerFactory.getLogger(ApplicationReadyListener.class);
+    Logger logger = LoggerFactory.getLogger(InitConfigGroupListener.class);
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
        /* Assert.notNull(ZK_URL,"获取zookeeper配置中心路径错误！");*/
