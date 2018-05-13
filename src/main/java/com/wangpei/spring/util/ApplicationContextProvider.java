@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @author wangpei
  * @version 1.0
  */
-@Component
+@Component("applicationContextProvider")
 public class ApplicationContextProvider implements ApplicationContextAware {
     /**
      * spring上下文
